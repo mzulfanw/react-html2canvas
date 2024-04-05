@@ -1,0 +1,48 @@
+{
+  "name": "react-html2canvas",
+  "version": "1.0.0",
+  "description": "React component based in html2canvas",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzulfanw/react-html2canvas.git"
+  },
+  "keywords": [
+    "React JS",
+    "html2canvas"
+  ],
+  "author": "Muhammad Zulfan Wahyudin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzulfanw/react-html2canvas/issues"
+  },
+  "homepage": "https://github.com/mzulfanw/react-html2canvas#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@storybook/react-vite": "^8.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.14.0",
+    "storybook": "^8.0.6"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "prop-types": "^15.8.1"
+  }
+}
